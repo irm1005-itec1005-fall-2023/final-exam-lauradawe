@@ -329,6 +329,34 @@ main ul li a:hover {
   border-radius: .5rem;
   padding: 2rem;
   }
+
+  .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    width: 100%;
+  
+    padding: 1rem 0 1rem 0;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #0e0d0d;
+  }
+  
+  footer img {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    border-radius: 1rem;
+    padding: 1rem
+  }
+  
+
+  
+
 /*
  * SHARED STYLES
  */
