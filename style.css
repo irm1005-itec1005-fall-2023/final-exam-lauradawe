@@ -27,9 +27,7 @@
  *    ... your styles here ...
  * }
  */
-* {
-  outline: 1px solid red;
-}
+
  html {
   font-size: 1.0rem;
 }
@@ -265,7 +263,28 @@ main ul li a:hover {
   border: 0;
  }
 
+ .mywork-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  padding: 6rem;
 
+}
+
+.webdev-card {
+  height: 100%;
+  min-width: 200px;
+  background-color:#cdb4db;
+  border-radius: 1rem;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  font-size: 0.6rem;
+  padding: 1rem;
+  text-align:left;
+}
 /*
  * SHARED STYLES
  */
